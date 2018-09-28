@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style: none;
+}
+span{
+    width: 50px;
+    text-align: center;
+}
+.connet{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    left: 400px;
+    top:50px;
+}
+.connet .pic{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+}
+.connet .pic li{
+    width: 500px;
+    height: 500px;
+    border: 0px;
+}
+.warp{
+    float: left;
+    width: 50px;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+.warp .top{
+    width: 50px;
+    height: 50px;
+    background: red;
+    color: white;
+    opacity:0.8;
+    text-align: center;
+    line-height: 50px;
+}
+.warp .list{
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.warp .last{
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    opacity: 0.2;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
